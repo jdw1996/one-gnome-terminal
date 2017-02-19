@@ -1,13 +1,15 @@
 #!/usr/bin/env bash
 
-# ONE DARK
-# --- ----
+# ROAD GREY
+# ---------
 # Gnome Terminal color scheme install script
 # Based on:
+#   https://github.com/denysdovhan/one-gnome-terminal
+# Which is based on:
 #   https://github.com/chriskempson/base16-gnome-terminal/
 
-[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="One Dark"
-[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="one-dark"
+[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Road Grey"
+[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="road-grey"
 [[ -z "$DCONF" ]] && DCONF=dconf
 [[ -z "$UUIDGEN" ]] && UUIDGEN=uuidgen
 
@@ -63,10 +65,10 @@ if which "$DCONF" > /dev/null 2>&1; then
 
         # update profile values with theme options
         dset visible-name "'$PROFILE_NAME'"
-        dset palette "['#000000', '#E06C75', '#98c379', '#d19a66', '#61aeee', '#c678dd', '#56b6c2', '#abb2bf', '#5c6370', '#e06c75', '#98c379', '#d19a66', '#62afee', '#c678dd', '#56b6c2', '#ffffff']"
-        dset background-color "'#282c34'"
-        dset foreground-color "'#abb2bf'"
-        dset bold-color "'#ABB2BF'"
+        dset palette "['#000000', '#bc3629', '#418240', '#b28501', '#315bb4', '#962294', '#1880a0', '#faf9fa', '#212227', '#bc3629', '#418240', '#b28501', '#315bb4', '#962294', '#1880a0', '#ffffff']"
+        dset background-color "'#c2c4cc'"
+        dset foreground-color "'#212227'"
+        dset bold-color "'#212227'"
         dset bold-color-same-as-fg "true"
         dset use-theme-colors "false"
         dset use-theme-background "false"
@@ -113,10 +115,10 @@ glist_append() {
 glist_append string /apps/gnome-terminal/global/profile_list "$PROFILE_SLUG"
 
 gset string visible_name "$PROFILE_NAME"
-gset string palette "#000000:#E06C75:#98c379:#d19a66:#61aeee:#c678dd:#56b6c2:#abb2bf:#5c6370:#e06c75:#98c379:#d19a66:#62afee:#c678dd:#56b6c2:#ffffff"
-gset string background_color "#282c34"
-gset string foreground_color "#abb2bf"
-gset string bold_color "#abb2bf"
+gset string palette "#000000:#bc3629:#418240:#b28501:#315bb4:#962294:#1880a0:#faf9fa:#212227:#bc3629:#418240:#b28501:#315bb4:#962294:#1880a0:#ffffff"
+gset string background_color "#c2c4cc"
+gset string foreground_color "#212227"
+gset string bold_color "#212227"
 gset bool   bold_color_same_as_fg "true"
 gset bool   use_theme_colors "false"
 gset bool   use_theme_background "false"
