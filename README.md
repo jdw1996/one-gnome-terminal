@@ -1,40 +1,21 @@
-![One Dark preview][preview-img]
+# road-grey-gnome-terminal
 
-# One for GNOME Terminal
+This is a port of my
+[Road Grey theme](https://github.com/jdw1996/road-grey-syntax) for GNOME
+Terminal. It is forked from
+[Denys Dovhan's port of Atom's One themes to GNOME Terminal](https://github.com/denysdovhan/one-gnome-terminal).
 
-> Atom's One themes for GNOME Terminal
-
-Here are One Dark and One Light themes for GNOME Terminal (available on Ubuntu, Fedora, Elementary OS, etc). These themes use [color palette][palette] from original Atom's [One Dark][one-dark-syntax] and [One Light][one-light-syntax] syntax theme.
-
-## Instalation
-
-For installation just execute desired command below. Be careful, terminal will be closed after install.
-
-**One Dark**
+To install the theme, first execute the following command (note that the
+terminal will close after installation):
 
 ```
-wget https://raw.githubusercontent.com/denysdovhan/gnome-terminal-one/master/one-dark.sh && . one-dark.sh
+wget https://raw.githubusercontent.com/jdw1996/road-grey-gnome-terminal/master/road-grey.sh && . one-dark.sh
 ```
 
-**One Light**
+Now open a new terminal window and go to **Edit > Preferences > Profiles** to
+choose **Road Grey**.
 
-```
-wget https://raw.githubusercontent.com/denysdovhan/gnome-terminal-one/master/one-light.sh && . one-light.sh
-```
-
-## Fonts
-
-I recommend to use [Inconsolata][inconsolata] or [Fira Mono][fira-mono] fonts for better compatibility with Atom Editor.
-
-## License
-
-[MIT][mit-license] © [Denys Dovhan][denysdovhan]
-
-[preview-img]: https://cloud.githubusercontent.com/assets/3459374/9424856/7ca61f48-4904-11e5-9f89-68345e3e1a5d.png
-[palette]: ./COLORS
-[one-dark-syntax]: https://atom.io/themes/one-dark-syntax
-[one-light-syntax]: https://atom.io/themes/one-light-syntax
-[inconsolata]: https://www.google.com/fonts/specimen/Inconsolata
-[fira-mono]: https://github.com/mozilla/Fira
-[mit-license]: http://opensource.org/licenses/MIT
-[denysdovhan]: http://denysdovhan.com/
+If you have any pointers you'd like to share about my code, find a bug, or want
+to suggest an improvement, feel free to
+[open an issue](https://github.com/jdw1996/road-grey-gnome-terminal/issues/new)
+or email me at [jdwinters96@gmail.com](mailto:jdwinters96@gmail.com).
