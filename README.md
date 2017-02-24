@@ -9,7 +9,7 @@ To install the theme, first execute the following command (note that the
 terminal will close after installation):
 
 ```
-wget https://raw.githubusercontent.com/jdw1996/road-grey-gnome-terminal/master/road-grey.sh && . one-dark.sh
+wget https://raw.githubusercontent.com/jdw1996/road-grey-gnome-terminal/master/road-grey.sh && . road-grey.sh
 ```
 
 Now open a new terminal window and go to **Edit > Preferences > Profiles** to
