@@ -6,12 +6,12 @@
 * Bright Red:     `#bc3629`
 * Green:          `#418240`
 * Bright Green:   `#418240`
-* Yellow:         `#b28501`
-* Bright Yellow:  `#b28501`
+* Yellow:         `#a27a01`
+* Bright Yellow:  `#a27a01`
 * Blue:           `#315bb4`
 * Light Blue:     `#315bb4`
-* Magenta:        `#962294`
-* Light Magenta:  `#962294`
+* Magenta:        `#833482`
+* Light Magenta:  `#833482`
 * Cyan:           `#1880a0`
 * Light Cyan:     `#1880a0`
 * White:          `#faf9fa`
