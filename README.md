@@ -1,5 +1,8 @@
 # road-grey-gnome-terminal
 
+**This repository is no longer maintained.  If you are interested in
+maintaining it, please let me know.**
+
 This is a port of my
 [Road Grey theme](https://github.com/jdw1996/road-grey-syntax) for GNOME
 Terminal. It is forked from
